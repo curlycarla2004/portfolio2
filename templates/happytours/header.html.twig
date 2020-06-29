@@ -1,0 +1,85 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <!--open navbar et apres open a container-->
+        <a class="navbar-brand" href="#">
+            <img src="{{asset('images/happytours/happytours.png') }}" alt="Logo de l'entreprise" class="src" style="width:35%;"><!--.svg are images vectoriel so the images stay the same without deformation, alt atttributes are obligatoire avec img-->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse"id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reserve your journey</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">About our agency</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Special deals</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div><!--/container-->
+</nav>
+
+<header class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-5">
+                <h1 class="text-center">WELCOME TO HAPPY TOURS</h1>
+                <p class="text-center"> <!--write "lorem" and we will got the text-->
+                    ...For over 30 years, the professional travel agents at Happy Tours Travel Agency have been planning all-inclusive vacations, charters, tours and vacation packages for individuals, families and groups, and we'd love to do the same for you. Call or e-mail us for a free quote and you'll be on your way to your dream vacation!
+                </p>
+                <section class="text-center">
+                    <a href="" class="btn btn-primary">CALL US</a>
+                    <a href="" class="btn btn-primary">RESERVE YOUR TRIP</a>
+                </section>
+            </section><!--/col-5-->
+
+            <section class="col-lg-7">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure class="img-thumbnail">
+                                <img class="img-fluid" src="{{ asset('images/happytours/basic-pic2.jpg') }}"  alt="Beach" style="width:100%">
+                                <figcaption>El Arco Cabo Mexico. </figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel-item"> <!--change items here only-->
+                            <figure class="img-thumbnail">
+                                <img class="img-fluid" src="{{ asset('images/happytours/basic-pic1.jpg') }}"  alt="Beach" style="width:100%">
+                                <figcaption>El Arco Cabo Mexico. </figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure class="img-thumbnail">
+                                <img class="img-fluid" src="{{ asset('images/happytours/basic-pic3.jpg') }}"  alt="Beach" style="width:100%">
+                                <figcaption>El Arco Cabo Mexico. </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section><!--/col-7-->
+        </div><!--/row-->
+    </div><!--/container-->
+</header>

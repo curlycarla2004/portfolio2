@@ -1,0 +1,71 @@
+
+/*navbar*/
+#maNavbar {
+    background-color: white;
+    padding-left: 15px;
+  }
+  
+  .navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .navbar-light .navbar-toggler:focus {
+    background-color: lightgrey;
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  
+
+  /*header*/
+  header {
+    /* background-image: url("../images/background.png"); */
+    background-position: left center;
+    background-size: cover;
+    color: white;
+    height: 50vh;
+  }
+  
+  header > section {
+    position: relative;
+    height: 50vh;
+  }
+  
+  #titre {
+    position: relative;
+    top: 60px;
+  }
+  
+  #titre h1 {
+    font-weight: bold;
+  }
+  
+  #form {
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  #form .form-group {
+    background-color: rgba(183, 183, 183, 0.6);
+    padding-right: 40px;
+  }
+  
+  #form button {
+    border-radius: 0;
+    padding: 11px;
+    width: 270px;
+  }
+  
+  #form .input-group, #form #adresse {
+    width: 237px;
+  }
+  
+  .input-group-text {
+    background-color: #dbdbdb;
+    border: none;
+  }
+  
+  #adresse, #tri {
+    background-color: #eeeeee;
+    color: black;
+  }
