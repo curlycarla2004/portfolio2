@@ -32,3 +32,12 @@ button.scroltop {
 .dlab-tilte{
     color:black!important;
 }
+
+.invisible{
+    visibility: hidden;
+    display: none;
+}
+
+.dlab-tilte{
+    color:black !important;
+}

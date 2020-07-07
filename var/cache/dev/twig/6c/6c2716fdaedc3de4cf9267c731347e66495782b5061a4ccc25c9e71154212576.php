@@ -12,7 +12,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* OhMyCats/ohmycats.html.twig */
+/* ohmycats/ohmycats.html.twig */
 class __TwigTemplate_a64486df76faa9c4c79e7782b989060ef88bbbe84ac2c08b7aad51cc77b8d270 extends Template
 {
     private $source;
@@ -37,10 +37,10 @@ class __TwigTemplate_a64486df76faa9c4c79e7782b989060ef88bbbe84ac2c08b7aad51cc77b
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "OhMyCats/ohmycats.html.twig"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "ohmycats/ohmycats.html.twig"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "OhMyCats/ohmycats.html.twig"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "ohmycats/ohmycats.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -65,7 +65,7 @@ class __TwigTemplate_a64486df76faa9c4c79e7782b989060ef88bbbe84ac2c08b7aad51cc77b
 
         ";
         // line 19
-        $this->loadTemplate("ohmycats/header.html.twig", "OhMyCats/ohmycats.html.twig", 19)->display($context);
+        $this->loadTemplate("ohmycats/header.html.twig", "ohmycats/ohmycats.html.twig", 19)->display($context);
         // line 20
         echo "
             <!--Carousel-->
@@ -190,7 +190,7 @@ class __TwigTemplate_a64486df76faa9c4c79e7782b989060ef88bbbe84ac2c08b7aad51cc77b
 
         ";
         // line 123
-        $this->loadTemplate("ohmycats/footer.html.twig", "OhMyCats/ohmycats.html.twig", 123)->display($context);
+        $this->loadTemplate("ohmycats/footer.html.twig", "ohmycats/ohmycats.html.twig", 123)->display($context);
         // line 124
         echo "
         ";
@@ -288,7 +288,7 @@ class __TwigTemplate_a64486df76faa9c4c79e7782b989060ef88bbbe84ac2c08b7aad51cc77b
 
     public function getTemplateName()
     {
-        return "OhMyCats/ohmycats.html.twig";
+        return "ohmycats/ohmycats.html.twig";
     }
 
     public function isTraitable()
@@ -433,6 +433,6 @@ class __TwigTemplate_a64486df76faa9c4c79e7782b989060ef88bbbe84ac2c08b7aad51cc77b
             <script src=\"{{ asset('js/ohmycats/chat.js') }}\"></script>
         {% endblock %}
     </body>
-</html>", "OhMyCats/ohmycats.html.twig", "C:\\Users\\curly\\OneDrive\\Plocha\\SYMFONY projects\\portfolio2\\templates\\ohmycats\\ohmycats.html.twig");
+</html>", "ohmycats/ohmycats.html.twig", "C:\\Users\\curly\\OneDrive\\Plocha\\SYMFONY projects\\portfolio2\\templates\\ohmycats\\ohmycats.html.twig");
     }
 }

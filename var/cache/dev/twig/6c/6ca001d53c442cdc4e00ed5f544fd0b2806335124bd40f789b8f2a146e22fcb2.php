@@ -364,8 +364,8 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t\t\t\tdata-lasttriggerstate=\"reset\"
 \t\t\t\t\t\t\t\t\t\tstyle=\"z-index: 18; white-space: nowrap; font-size: 50px; line-height: 50px;\"> <a href=\"";
         // line 262
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("docs/Karla Gergelova CV.pdf"), "html", null, true);
-        echo "\" class=\"text-white\" download=\"Karla_Gergelova_CV\" class=\"CV\">TELECHARGER<br/>
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("docs/KarlaGergelovaCV.pdf"), "html", null, true);
+        echo "\" class=\"text-white\" download=\"Karla_Gergelova_CV\">TELECHARGER<br/>
 \t\t\t\t\t\t\tMON<br/>
 \t\t\t\t\t\t\tCV ICI<i class=\"fa fa-link\" aria-hidden=\"true\"></i></a></div>
 
@@ -402,10 +402,11 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t<div class=\"section-full content-inner text-white dlab-about-1 bg-black\" id=\"about-us\">
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"section-head text-white text-center\">
+\t\t\t\t\t<h1 class=\"invisible\">Karla Gergelova</h1>
 \t\t\t\t\t<h2 class=\"text-uppercase\">A PROPOS</h2>
 \t\t\t\t\t<div class=\"dlab-separator\"></div>
 \t\t\t\t\t";
-        // line 302
+        // line 303
         echo "\t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-lg-12 col-md-12 col-sm-12 text-center\">
@@ -431,14 +432,12 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t<!-- About Us END -->
 
 \t\t<!-- Competences -->
-\t\t<div class=\"section-full overlay-black-middle bg-img-fix text-white content-inner-1 what-we-do what-we-do-2\" id=\"competences\" style=\"background-image: url(images/nature-lights.jpg);\" >
+\t\t<div class=\"section-full overlay-black-middle bg-img-fix  content-inner-1 what-we-do what-we-do-2\" id=\"competences\" style=\"background-image: url(images/nature-lights.jpg);\" >
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"section-head text-center text-white\">
-\t\t\t\t\t<h2 class=\"text-uppercase\">Mes compétences</h2>
+\t\t\t\t\t<h2 class=\"text-uppercase text-white\">Mes compétences</h2>
 \t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t";
-        // line 333
-        echo "\t\t\t\t</div>
+\t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
 \t\t\t\t\t\t<div class=\"icon-bx-wraper center p-a30 draw\">
@@ -448,80 +447,68 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
         echo "\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">HTML 5</h4>
-\t\t\t\t\t\t\t\t";
-        // line 342
-        echo "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">HTML 5</h3>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
 \t\t\t\t\t\t<div class=\"icon-bx-wraper center p-a30 draw\">
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"";
-        // line 347
+        // line 346
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/css.png"), "html", null, true);
         echo "\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">CSS 3</h4>
-\t\t\t\t\t\t\t\t";
-        // line 352
-        echo "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">CSS 3</h3>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
 \t\t\t\t\t\t<div class=\"icon-bx-wraper center p-a30 draw\">
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"";
-        // line 357
+        // line 355
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/js.png"), "html", null, true);
         echo "\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">JavaScript</h4>
-\t\t\t\t\t\t\t\t";
-        // line 362
-        echo "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">JavaScript</h3>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
 \t\t\t\t\t\t<div class=\"icon-bx-wraper center p-a30 draw\">
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"";
-        // line 367
+        // line 364
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/php.png"), "html", null, true);
         echo "\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">PHP 7</h4>
-\t\t\t\t\t\t\t\t";
-        // line 372
-        echo "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">PHP 7</h3>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
 \t\t\t\t\t\t<div class=\"icon-bx-wraper center p-a30 draw\">
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"";
-        // line 377
+        // line 373
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/mysql.png"), "html", null, true);
         echo "\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">MySQL</h4>
-\t\t\t\t\t\t\t\t";
-        // line 382
-        echo "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">MySQL</h3>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
 \t\t\t\t\t\t<div class=\"icon-bx-wraper center p-a30 draw\">
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"";
-        // line 387
+        // line 382
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/wordpress.png"), "html", null, true);
         echo "\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">WordPress</h4>
-\t\t\t\t\t\t\t\t";
-        // line 392
-        echo "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">WordPress</h3>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
@@ -543,7 +530,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"ow-carousel-entry\">
 \t\t\t\t\t\t\t\t<div class=\"ow-entry-media dlab-img-effect zoom-slow\"> 
 \t\t\t\t\t\t\t\t\t<a href=\"https://www.yom-yoga.com\" target=\"_blank\"><img src=\"";
-        // line 413
+        // line 407
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/yomyoga.png"), "html", null, true);
         echo "\" alt=\"screen shot of YomYoga website\"></a> 
 \t\t\t\t\t\t\t\t</div>
@@ -560,14 +547,14 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t<div class=\"item\">
 \t\t\t\t\t\t\t<div class=\"ow-carousel-entry\">
 \t\t\t\t\t\t\t\t<div class=\"ow-entry-media dlab-img-effect zoom-slow\"> <a href=\"";
-        // line 427
+        // line 421
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("OhMyCats");
         echo "\" target=\"_blank\"><img src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/cats.png"), "html", null, true);
         echo "\" alt=\"screen shot of OhMyCats website\"></a> </div>
 \t\t\t\t\t\t\t\t<div class=\"text-center bg-dark-black p-lr10 p-tb15 text-white\">
 \t\t\t\t\t\t\t\t\t<div class=\"ow-entry-title\"><a href=\"";
-        // line 429
+        // line 423
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("OhMyCats");
         echo "\" target=\"_blank\">OhMyCats</a></div>
 \t\t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
@@ -581,14 +568,14 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t<div class=\"item\">
 \t\t\t\t\t\t\t<div class=\"ow-carousel-entry\">
 \t\t\t\t\t\t\t\t<div class=\"ow-entry-media dlab-img-effect zoom-slow\"> <a href=\"";
-        // line 440
+        // line 434
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("MultiWebsite");
         echo "\" target=\"_blank\"><img src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/multi.png"), "html", null, true);
         echo "\" alt=\"screen shot of multi website\"></a> </div>
 \t\t\t\t\t\t\t\t<div class=\"text-center bg-dark-black p-lr10 p-tb15 text-white\">
 \t\t\t\t\t\t\t\t\t<div class=\"ow-entry-title\"><a href=\"";
-        // line 442
+        // line 436
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("MultiWebsite");
         echo "\" target=\"_blank\">Multi website</a></div>
 \t\t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
@@ -602,14 +589,14 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t<div class=\"item\">
 \t\t\t\t\t\t\t<div class=\"ow-carousel-entry\">
 \t\t\t\t\t\t\t\t<div class=\"ow-entry-media dlab-img-effect zoom-slow\"> <a href=\"";
-        // line 453
+        // line 447
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("RentAcar");
         echo "\" target=\"_blank\"><img src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/rent.png"), "html", null, true);
         echo "\" alt=\"screen shot of rentAcar website\"></a> </div>
 \t\t\t\t\t\t\t\t<div class=\"text-center bg-dark-black p-lr10 p-tb15 text-white\">
 \t\t\t\t\t\t\t\t\t<div class=\"ow-entry-title\"><a href=\"";
-        // line 455
+        // line 449
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("RentAcar");
         echo "\" target=\"_blank\">RentAcar</a></div>
 \t\t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
@@ -623,14 +610,14 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t<div class=\"item\">
 \t\t\t\t\t\t\t<div class=\"ow-carousel-entry\">
 \t\t\t\t\t\t\t\t<div class=\"ow-entry-media dlab-img-effect zoom-slow\"> <a href=\"";
-        // line 466
+        // line 460
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("HappyTours");
         echo "\" target=\"_blank\"><img src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/voyage.png"), "html", null, true);
         echo "\" alt=\"screen shot of HappyTours website\"></a> </div>
 \t\t\t\t\t\t\t\t<div class=\"text-center bg-dark-black p-lr10 p-tb15 text-white\">
 \t\t\t\t\t\t\t\t\t<div class=\"ow-entry-title\"><a href=\"";
-        // line 468
+        // line 462
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("HappyTours");
         echo "\" target=\"_blank\">Happy Tours</a></div>
 \t\t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
@@ -641,9 +628,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
-\t\t\t\t\t\t";
-        // line 490
-        echo "\t\t\t\t\t</div>
+\t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
@@ -660,7 +645,10 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-lg-12 col-md-6 col-sm-6 text-center\">
-\t\t\t\t\t\t<h2><a href=\"docs/Karla Gergelova CV.pdf\" class=\"text-white\" download=\"Karla_Gergelova_CV\" class=\"CV\">Télécharger mon CV ici<br><i class=\"fa fa-link\" aria-hidden=\"true\"></i></a></h2>
+\t\t\t\t\t\t<h2><a href=\"";
+        // line 488
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("docs/KarlaGergelovaCV.pdf"), "html", null, true);
+        echo "\" class=\"text-white\" download=\"Karla_Gergelova_CV\">Télécharger mon CV ici<br><i class=\"fa fa-link\" aria-hidden=\"true\"></i></a></h2>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -671,71 +659,95 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t<div class=\"section-full bg-black dlab-contact-1\" id=\"contact\">
 \t\t\t<div class=\"row dzseth m-a0\">
 \t\t\t\t<div class=\"col-xl-6 col-lg-4 col-md-12 p-a0\">
-\t\t\t\t\t<iframe class=\"seth\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21101.184059707906!2d7.734895400258374!3d48.61658062291911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c86f453b3249%3A0x45bb538b377b17fc!2sSchiltigheim!5e0!3m2!1sfr!2sfr!4v1592513418753!5m2!1sfr!2sfr\" width=\"100%\" min-height=\"300px\" frameborder=\"0\" style=\"border:0px;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>
-
+\t\t\t\t\t<iframe class=\"seth\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21101.184059707906!2d7.734895400258374!3d48.61658062291911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c86f453b3249%3A0x45bb538b377b17fc!2sSchiltigheim!5e0!3m2!1sfr!2sfr!4v1592513418753!5m2!1sfr!2sfr\" style=\"border:0px; width: 100%; min-height: 300px;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"col-xl-6 col-lg-8 col-md-12  bg-black text-white bg-img-fix\" >
 \t\t\t\t\t<div class=\"content-inner-1  bg-img-fix\">
 \t\t\t\t\t\t<div class=\"section-head text-center\">
 \t\t\t\t\t\t\t<h2 class=\"text-uppercase\">Contactez-moi</h2>
 \t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t<p class=\"max-w500 m-auto m-b0\">If you have any questions, you can contact with us so that we can give you a satisfying answer. Subscribe to our newsletter to get our latest products, news and events.</p>
+\t\t\t\t\t\t\t<p class=\"max-w500 m-auto m-b0\">If you have any questions, you can contact me here.</p>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"p-lr30 row m-b30 contact-style-1\">
 \t\t\t\t\t\t\t<div class=\"dzFormMsg\"></div>
-\t\t\t\t\t\t\t<form method=\"post\" class=\"dzForm\" action=\"../script/contact.php\">
-\t\t\t\t\t\t\t<input type=\"hidden\" value=\"Contact\" name=\"dzToDo\" >
+\t\t\t\t\t\t\t<form method=\"post\" class=\"dzForm\" action=\"";
+        // line 510
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contact");
+        echo "\">
+\t\t\t\t\t\t\t<input type=\"hidden\" value=\"Contact\" name=\"whichform\" >
                                 <div class=\"row\">
                                     <div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <input name=\"dzName\" type=\"text\" required class=\"form-control\" placeholder=\"Your Name\">
+                                                <input name=\"lastname\" type=\"text\" required class=\"form-control\" placeholder=\"Your Last Name\">
                                             </div>
                                         </div>
                                     </div>
                                     <div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\"> 
-\t\t\t\t\t\t\t\t\t\t\t    <input name=\"dzEmail\" type=\"email\" class=\"form-control\" required  placeholder=\"Your Email Id\" >
+\t\t\t\t\t\t\t\t\t\t\t    <input name=\"firstname\" type=\"text\" class=\"form-control\" required  placeholder=\"Your First Name\" >
                                             </div>
                                         </div>
                                     </div>
 \t\t\t\t\t\t\t\t\t<div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <input name=\"dzOther[Phone]\" type=\"text\" required class=\"form-control\" placeholder=\"Phone\">
+                                                <input name=\"email\" type=\"email\" required class=\"form-control\" placeholder=\"Your Email\">
                                             </div>
                                         </div>
                                     </div>
 \t\t\t\t\t\t\t\t\t<div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <input name=\"dzOther[Subject]\" type=\"text\" required class=\"form-control\" placeholder=\"Subject\">
+                                                <input name=\"subject\" type=\"text\" required class=\"form-control\" placeholder=\"Subject\">
                                             </div>
                                         </div>
                                     </div>
                                      <div class=\"col-lg-12\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <textarea name=\"dzMessage\" rows=\"4\" class=\"form-control\" required placeholder=\"Your Message...\"></textarea>
+                                                <textarea name=\"message\" rows=\"4\" class=\"form-control\" required placeholder=\"Your Message...\"></textarea>
                                             </div>
                                         </div>
                                     </div>
-\t\t\t\t\t\t\t\t\t";
-        // line 576
-        echo "                                    <div class=\"col-lg-12\">
+                                    <div class=\"col-lg-12\">
                                         <button name=\"submit\" type=\"submit\" value=\"Submit\" class=\"site-button \"> <span>Submit</span> </button>
                                     </div>
                                 </div>
                             </form>
                         </div>
-\t\t\t\t\t\t";
-        // line 611
-        echo "\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"p-lr15 row dlab-contact\">
+\t\t\t\t\t\t\t<div class=\"col-lg-4 col-md-4 col-sm-4 m-b15\">
+\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper p-a15 center col\">
+\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm m-b20 radius\"> <a href=\"tel:+33652629472\" class=\"icon-cell\"><i class=\"fa fa-phone\"></i></a> </div>
+\t\t\t\t\t\t\t\t\t<div class=\"icon-content\">
+\t\t\t\t\t\t\t\t\t\t<h5>Phone</h5>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<div class=\"col-lg-4 col-md-4 col-sm-4 m-b15\">
+\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper p-a15 center col\">
+\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm m-b20 radius\"> <a href=\"mailto:gergelovakarla@aol.com\" class=\"icon-cell\"><i class=\"fa fa-paper-plane\"></i></a></div>
+\t\t\t\t\t\t\t\t\t<div class=\"icon-content\">
+\t\t\t\t\t\t\t\t\t\t<h5>Email</h5>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<div class=\"col-lg-4 col-md-4 col-sm-4  m-b15\">
+\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper p-a15 center col\">
+\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm m-b20 radius\"> <a href=\"https://www.linkedin.com/in/karla-gergelov%C3%A1-05728346/\" target=\"_blank\" class=\"icon-cell\"><i class=\"fa fa-linkedin\"></i></a> </div>
+\t\t\t\t\t\t\t\t\t<div class=\"icon-content\">
+\t\t\t\t\t\t\t\t\t\t<h5>Linkedin</h5>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
-\t\t<!-- Contect END -->
+\t\t<!-- Contact END -->
 \t 
 
 ";
@@ -759,7 +771,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 
     public function getDebugInfo()
     {
-        return array (  734 => 611,  726 => 576,  646 => 490,  634 => 468,  627 => 466,  613 => 455,  606 => 453,  592 => 442,  585 => 440,  571 => 429,  564 => 427,  547 => 413,  524 => 392,  517 => 387,  510 => 382,  503 => 377,  496 => 372,  489 => 367,  482 => 362,  475 => 357,  468 => 352,  461 => 347,  454 => 342,  447 => 337,  441 => 333,  409 => 302,  367 => 262,  341 => 239,  293 => 194,  268 => 172,  244 => 151,  220 => 130,  196 => 109,  102 => 18,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  675 => 510,  650 => 488,  621 => 462,  614 => 460,  600 => 449,  593 => 447,  579 => 436,  572 => 434,  558 => 423,  551 => 421,  534 => 407,  506 => 382,  494 => 373,  482 => 364,  470 => 355,  458 => 346,  446 => 337,  410 => 303,  367 => 262,  341 => 239,  293 => 194,  268 => 172,  244 => 151,  220 => 130,  196 => 109,  102 => 18,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -1025,7 +1037,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t\t\t\tdata-paddingbottom=\"[0,0,0,0]\"
 \t\t\t\t\t\t\t\t\t\tdata-paddingleft=\"[0,0,0,0]\"
 \t\t\t\t\t\t\t\t\t\tdata-lasttriggerstate=\"reset\"
-\t\t\t\t\t\t\t\t\t\tstyle=\"z-index: 18; white-space: nowrap; font-size: 50px; line-height: 50px;\"> <a href=\"{{ asset('docs/Karla Gergelova CV.pdf') }}\" class=\"text-white\" download=\"Karla_Gergelova_CV\" class=\"CV\">TELECHARGER<br/>
+\t\t\t\t\t\t\t\t\t\tstyle=\"z-index: 18; white-space: nowrap; font-size: 50px; line-height: 50px;\"> <a href=\"{{ asset('docs/KarlaGergelovaCV.pdf') }}\" class=\"text-white\" download=\"Karla_Gergelova_CV\">TELECHARGER<br/>
 \t\t\t\t\t\t\tMON<br/>
 \t\t\t\t\t\t\tCV ICI<i class=\"fa fa-link\" aria-hidden=\"true\"></i></a></div>
 
@@ -1062,6 +1074,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t<div class=\"section-full content-inner text-white dlab-about-1 bg-black\" id=\"about-us\">
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"section-head text-white text-center\">
+\t\t\t\t\t<h1 class=\"invisible\">Karla Gergelova</h1>
 \t\t\t\t\t<h2 class=\"text-uppercase\">A PROPOS</h2>
 \t\t\t\t\t<div class=\"dlab-separator\"></div>
 \t\t\t\t\t{# <p>Because of best quality & service, victory has always been our goal, we only represent the best talent.  We’ll do everything for you which can  put you at ease with the correct guidance, simplicity & honesty.</p> #}
@@ -1090,12 +1103,11 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t<!-- About Us END -->
 
 \t\t<!-- Competences -->
-\t\t<div class=\"section-full overlay-black-middle bg-img-fix text-white content-inner-1 what-we-do what-we-do-2\" id=\"competences\" style=\"background-image: url(images/nature-lights.jpg);\" >
+\t\t<div class=\"section-full overlay-black-middle bg-img-fix  content-inner-1 what-we-do what-we-do-2\" id=\"competences\" style=\"background-image: url(images/nature-lights.jpg);\" >
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"section-head text-center text-white\">
-\t\t\t\t\t<h2 class=\"text-uppercase\">Mes compétences</h2>
+\t\t\t\t\t<h2 class=\"text-uppercase text-white\">Mes compétences</h2>
 \t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t{# <p>To overcome the difficulties we need competence and passion with our marvelous features. Our best features are absolutely in a good looking manner which is best suited for you.</p> #}
 \t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-lg-4 col-md-6 col-sm-6 m-b30\">
@@ -1103,8 +1115,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"{{ asset('images/html.png') }}\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">HTML 5</h4>
-\t\t\t\t\t\t\t\t{# <p>Le <b>HyperText Markup Language</b>, généralement abrégé HTML ou dans sa dernière version HTML5 est un langage le langage de balisage conçu pour représenter les pages web</p> #}
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">HTML 5</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -1113,8 +1124,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"{{ asset('images/css.png') }}\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">CSS 3</h4>
-\t\t\t\t\t\t\t\t{# <p>The world has officially gone crazy for running. You want to fit your body, run with us.</p> #}
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">CSS 3</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -1123,8 +1133,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"{{ asset('images/js.png') }}\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">JavaScript</h4>
-\t\t\t\t\t\t\t\t{# <p>We are giving you practical, straightforward steps to start improving your swimming today.</p> #}
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">JavaScript</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -1133,8 +1142,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"{{ asset('images/php.png') }}\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">PHP 7</h4>
-\t\t\t\t\t\t\t\t{# <p>The world has officially gone crazy for running. You want to fit your body, run with us.</p> #}
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">PHP 7</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -1143,8 +1151,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"{{ asset('images/mysql.png') }}\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">MySQL</h4>
-\t\t\t\t\t\t\t\t{# <p>We are giving you practical, straightforward steps to start improving your swimming today.</p> #}
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">MySQL</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -1153,8 +1160,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t<div class=\"icon-md  text-primary m-b20\"> <span class=\"icon-cell\"><img src=\"{{ asset('images/wordpress.png') }}\" alt=\"\"></span> </div>
 \t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t\t<h4 class=\"dlab-tilte\">WordPress</h4>
-\t\t\t\t\t\t\t\t{# <p>We believe cycling transforms lives and should be the most popular sport in the world.</p> #}
+\t\t\t\t\t\t\t\t<h3 class=\"dlab-title\">WordPress</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -1240,19 +1246,6 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
-\t\t\t\t\t\t{# <div class=\"item\">
-\t\t\t\t\t\t\t<div class=\"ow-carousel-entry\">
-\t\t\t\t\t\t\t\t<div class=\"ow-entry-media dlab-img-effect zoom-slow\"> <a href=\"#\"><img src=\"images/our-work/pic6.jpg\" alt=\"\"></a> </div>
-\t\t\t\t\t\t\t\t<div class=\"text-center bg-dark-black p-lr10 p-tb15 text-white\">
-\t\t\t\t\t\t\t\t\t<div class=\"ow-entry-title\"><a href=\"#\">CYCLING</a></div>
-\t\t\t\t\t\t\t\t\t<div class=\"dlab-separator bg-primary\"></div>
-\t\t\t\t\t\t\t\t\t<div class=\"ow-entry-text \">
-\t\t\t\t\t\t\t\t\t\t<p class=\"m-b0\"><i class=\"fa fa-clock-o\"></i> 22 May 2012</p>
-\t\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\"></i>  France, DIvision No. 21.</p>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t</div> #}
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -1270,7 +1263,7 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-lg-12 col-md-6 col-sm-6 text-center\">
-\t\t\t\t\t\t<h2><a href=\"docs/Karla Gergelova CV.pdf\" class=\"text-white\" download=\"Karla_Gergelova_CV\" class=\"CV\">Télécharger mon CV ici<br><i class=\"fa fa-link\" aria-hidden=\"true\"></i></a></h2>
+\t\t\t\t\t\t<h2><a href=\"{{ asset('docs/KarlaGergelovaCV.pdf') }}\" class=\"text-white\" download=\"Karla_Gergelova_CV\">Télécharger mon CV ici<br><i class=\"fa fa-link\" aria-hidden=\"true\"></i></a></h2>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -1281,104 +1274,92 @@ class __TwigTemplate_b80c75bf2291e6a3de316308b34b4c24fc922b8969b21aabf8268642c7d
 \t\t<div class=\"section-full bg-black dlab-contact-1\" id=\"contact\">
 \t\t\t<div class=\"row dzseth m-a0\">
 \t\t\t\t<div class=\"col-xl-6 col-lg-4 col-md-12 p-a0\">
-\t\t\t\t\t<iframe class=\"seth\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21101.184059707906!2d7.734895400258374!3d48.61658062291911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c86f453b3249%3A0x45bb538b377b17fc!2sSchiltigheim!5e0!3m2!1sfr!2sfr!4v1592513418753!5m2!1sfr!2sfr\" width=\"100%\" min-height=\"300px\" frameborder=\"0\" style=\"border:0px;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>
-
+\t\t\t\t\t<iframe class=\"seth\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21101.184059707906!2d7.734895400258374!3d48.61658062291911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c86f453b3249%3A0x45bb538b377b17fc!2sSchiltigheim!5e0!3m2!1sfr!2sfr!4v1592513418753!5m2!1sfr!2sfr\" style=\"border:0px; width: 100%; min-height: 300px;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"col-xl-6 col-lg-8 col-md-12  bg-black text-white bg-img-fix\" >
 \t\t\t\t\t<div class=\"content-inner-1  bg-img-fix\">
 \t\t\t\t\t\t<div class=\"section-head text-center\">
 \t\t\t\t\t\t\t<h2 class=\"text-uppercase\">Contactez-moi</h2>
 \t\t\t\t\t\t\t<div class=\"dlab-separator\"></div>
-\t\t\t\t\t\t\t<p class=\"max-w500 m-auto m-b0\">If you have any questions, you can contact with us so that we can give you a satisfying answer. Subscribe to our newsletter to get our latest products, news and events.</p>
+\t\t\t\t\t\t\t<p class=\"max-w500 m-auto m-b0\">If you have any questions, you can contact me here.</p>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"p-lr30 row m-b30 contact-style-1\">
 \t\t\t\t\t\t\t<div class=\"dzFormMsg\"></div>
-\t\t\t\t\t\t\t<form method=\"post\" class=\"dzForm\" action=\"../script/contact.php\">
-\t\t\t\t\t\t\t<input type=\"hidden\" value=\"Contact\" name=\"dzToDo\" >
+\t\t\t\t\t\t\t<form method=\"post\" class=\"dzForm\" action=\"{{ path('contact') }}\">
+\t\t\t\t\t\t\t<input type=\"hidden\" value=\"Contact\" name=\"whichform\" >
                                 <div class=\"row\">
                                     <div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <input name=\"dzName\" type=\"text\" required class=\"form-control\" placeholder=\"Your Name\">
+                                                <input name=\"lastname\" type=\"text\" required class=\"form-control\" placeholder=\"Your Last Name\">
                                             </div>
                                         </div>
                                     </div>
                                     <div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\"> 
-\t\t\t\t\t\t\t\t\t\t\t    <input name=\"dzEmail\" type=\"email\" class=\"form-control\" required  placeholder=\"Your Email Id\" >
+\t\t\t\t\t\t\t\t\t\t\t    <input name=\"firstname\" type=\"text\" class=\"form-control\" required  placeholder=\"Your First Name\" >
                                             </div>
                                         </div>
                                     </div>
 \t\t\t\t\t\t\t\t\t<div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <input name=\"dzOther[Phone]\" type=\"text\" required class=\"form-control\" placeholder=\"Phone\">
+                                                <input name=\"email\" type=\"email\" required class=\"form-control\" placeholder=\"Your Email\">
                                             </div>
                                         </div>
                                     </div>
 \t\t\t\t\t\t\t\t\t<div class=\"col-lg-6\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <input name=\"dzOther[Subject]\" type=\"text\" required class=\"form-control\" placeholder=\"Subject\">
+                                                <input name=\"subject\" type=\"text\" required class=\"form-control\" placeholder=\"Subject\">
                                             </div>
                                         </div>
                                     </div>
                                      <div class=\"col-lg-12\">
                                         <div class=\"form-group\">
                                             <div class=\"input-group\">
-                                                <textarea name=\"dzMessage\" rows=\"4\" class=\"form-control\" required placeholder=\"Your Message...\"></textarea>
+                                                <textarea name=\"message\" rows=\"4\" class=\"form-control\" required placeholder=\"Your Message...\"></textarea>
                                             </div>
                                         </div>
                                     </div>
-\t\t\t\t\t\t\t\t\t{# <div class=\"col-lg-12\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"form-group recaptcha-box\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"input-group\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"g-recaptcha\" data-theme=\"dark\" data-sitekey=\"<!-- Put reCaptcha Site Key -->\" data-callback=\"verifyRecaptchaCallback\" data-expired-callback=\"expiredRecaptchaCallback\"></div>
-\t\t\t\t\t\t\t\t\t\t\t\t<input class=\"form-control d-none\" style=\"display:none;\" data-recaptcha=\"true\" required data-error=\"Please complete the Captcha\">
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t</div> #}
                                     <div class=\"col-lg-12\">
                                         <button name=\"submit\" type=\"submit\" value=\"Submit\" class=\"site-button \"> <span>Submit</span> </button>
                                     </div>
                                 </div>
                             </form>
                         </div>
-\t\t\t\t\t\t{# <div class=\"p-lr15 row dlab-contact\">
+\t\t\t\t\t\t<div class=\"p-lr15 row dlab-contact\">
 \t\t\t\t\t\t\t<div class=\"col-lg-4 col-md-4 col-sm-4 m-b15\">
-\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper bx-style-1 p-a15 center col\">
-\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm bg-primary m-b20 radius\"> <a href=\"#\" class=\"icon-cell\"><i class=\"fa fa-phone\"></i></a> </div>
+\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper p-a15 center col\">
+\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm m-b20 radius\"> <a href=\"tel:+33652629472\" class=\"icon-cell\"><i class=\"fa fa-phone\"></i></a> </div>
 \t\t\t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t\t\t<h5>Phone</h5>
-\t\t\t\t\t\t\t\t\t\t<p>+33(0)6 52 62 94 72</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-lg-4 col-md-4 col-sm-4 m-b15\">
-\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper bx-style-1 p-a15 center col\">
-\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm bg-primary m-b20 radius\"> <a href=\"#\" class=\"icon-cell\"><i class=\"fa fa-envelope\"></i></a> </div>
+\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper p-a15 center col\">
+\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm m-b20 radius\"> <a href=\"mailto:gergelovakarla@aol.com\" class=\"icon-cell\"><i class=\"fa fa-paper-plane\"></i></a></div>
 \t\t\t\t\t\t\t\t\t<div class=\"icon-content\">
 \t\t\t\t\t\t\t\t\t\t<h5>Email</h5>
-\t\t\t\t\t\t\t\t\t\t<p>gergelovakarla@aol.com</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-lg-4 col-md-4 col-sm-4  m-b15\">
-\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper bx-style-1 p-a15 center col\">
-\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm bg-primary m-b20 radius\"> <a href=\"#\" class=\"icon-cell\"><i class=\"fa fa-map-marker\"></i></a> </div>
+\t\t\t\t\t\t\t\t<div class=\"icon-bx-wraper p-a15 center col\">
+\t\t\t\t\t\t\t\t\t<div class=\"icon-bx-sm m-b20 radius\"> <a href=\"https://www.linkedin.com/in/karla-gergelov%C3%A1-05728346/\" target=\"_blank\" class=\"icon-cell\"><i class=\"fa fa-linkedin\"></i></a> </div>
 \t\t\t\t\t\t\t\t\t<div class=\"icon-content\">
-\t\t\t\t\t\t\t\t\t\t<h5>Address</h5>
-\t\t\t\t\t\t\t\t\t\t<p>Schiltigheim, 67300</p>
+\t\t\t\t\t\t\t\t\t\t<h5>Linkedin</h5>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t</div> #}
+\t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
-\t\t<!-- Contect END -->
+\t\t<!-- Contact END -->
 \t 
 
 {% endblock %}

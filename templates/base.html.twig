@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160594213-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-160594213-1');
+        </script>
+        
+        <!-- MOBILE SPECIFIC -->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+        <meta name="keywords" content="web developpeur, web developer, symfony, code, mobile, css, html, javascript" />
+        <meta name="author" content="Karla Gergelova" />
         <meta name="robots" content="" />
-        <meta name="description" content="Resume theme that is absolutely perfect tool for any type of resume or CV which promote you in professional looking manner. It is a standard resume in which you will look stunning in any device." />
-        <meta property="og:title" content="Karla Gergelova Resume" />
-        <meta property="og:description" content="Resume theme that is absolutely perfect tool for any type of resume or CV which promote you in professional looking manner. It is a standard resume in which you will look stunning in any device." />
-        <meta property="og:image" content="http://winkit.dexignlab.com/10_resume/social-image.png" />
-        <meta name="format-detection" content="telephone=no">
+        <meta name="description" content="" />
+
+        <!-- Facebook -->
+        <meta property="og:title" content="Karla Gergelova Portfolio" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="https://www.karlagergelova.com/">
+        <meta property="og:image" content="{{ asset('images/social-image.png') }}" />
+        <meta property="og:site_name" content="Portfolio Karla Gergelova">
         
         <!-- FAVICONS ICON -->
         <link rel="icon" href="{{ asset('images/logo2.png') }}" type="image/x-icon" />
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logo2.png') }}" />
 
-        <title>{% block title %}Karla Gergelova | Développeur Web{% endblock %}</title>
+        <title>{% block title %}Karla Gergelova | Développeur Web et Web Mobile{% endblock %}</title>
 
         <!-- MOBILE SPECIFIC -->
 	    <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -2,11 +2,10 @@
 
 namespace App\Entity;
 
-use App\Repository\ContactRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=ContactRepository::class)
+ * @ORM\Entity(repositoryClass="App\Repository\ContactRepository")
  */
 class Contact
 {
@@ -46,6 +45,11 @@ class Contact
      * @ORM\Column(type="datetime")
      */
     private $createdAt;
+
+    public function __construct()
+    {
+        $this->createdAt = new \DateTime(); 
+    }
 
     public function getId(): ?int
     {

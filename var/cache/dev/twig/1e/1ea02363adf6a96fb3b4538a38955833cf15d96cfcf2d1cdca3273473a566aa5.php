@@ -47,29 +47,47 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
         echo "<!DOCTYPE html>
 <html lang=\"en\">
     <head>
-        <meta charset=\"utf-8\">
-        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-        <meta name=\"keywords\" content=\"\" />
-        <meta name=\"author\" content=\"\" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-160594213-1\"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-160594213-1');
+        </script>
+        
+        <!-- MOBILE SPECIFIC -->
+       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+       <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">
+
+        <meta name=\"keywords\" content=\"web developpeur, web developer, symfony, code, mobile, css, html, javascript\" />
+        <meta name=\"author\" content=\"Karla Gergelova\" />
         <meta name=\"robots\" content=\"\" />
-        <meta name=\"description\" content=\"Resume theme that is absolutely perfect tool for any type of resume or CV which promote you in professional looking manner. It is a standard resume in which you will look stunning in any device.\" />
-        <meta property=\"og:title\" content=\"Karla Gergelova Resume\" />
-        <meta property=\"og:description\" content=\"Resume theme that is absolutely perfect tool for any type of resume or CV which promote you in professional looking manner. It is a standard resume in which you will look stunning in any device.\" />
-        <meta property=\"og:image\" content=\"http://winkit.dexignlab.com/10_resume/social-image.png\" />
-        <meta name=\"format-detection\" content=\"telephone=no\">
+        <meta name=\"description\" content=\"\" />
+
+        <!-- Facebook -->
+        <meta property=\"og:title\" content=\"Karla Gergelova Portfolio\" />
+        <meta property=\"og:description\" content=\"\" />
+        <meta property=\"og:url\" content=\"https://www.karlagergelova.com/\">
+        <meta property=\"og:image\" content=\"";
+        // line 27
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/social-image.png"), "html", null, true);
+        echo "\" />
+        <meta property=\"og:site_name\" content=\"Portfolio Karla Gergelova\">
         
         <!-- FAVICONS ICON -->
         <link rel=\"icon\" href=\"";
-        // line 16
+        // line 31
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo2.png"), "html", null, true);
         echo "\" type=\"image/x-icon\" />
         <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"";
-        // line 17
+        // line 32
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo2.png"), "html", null, true);
         echo "\" />
 
         <title>";
-        // line 19
+        // line 34
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
 
@@ -77,9 +95,9 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 \t    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 
         ";
-        // line 24
+        // line 39
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 38
+        // line 53
         echo "    </head>
 
     <body id=\"bg\" data-target=\".navbar\" data-spy=\"scroll\" >
@@ -93,32 +111,32 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 
         <div class=\"page-wraper\">
                 ";
-        // line 51
+        // line 66
         echo "                ";
-        $this->loadTemplate("portfolio2/header.html.twig", "base.html.twig", 51)->display($context);
-        // line 52
+        $this->loadTemplate("portfolio2/header.html.twig", "base.html.twig", 66)->display($context);
+        // line 67
         echo "            <div class=\"page-content\">
                 ";
-        // line 53
+        // line 68
         $this->displayBlock('body', $context, $blocks);
-        // line 56
+        // line 71
         echo "            </div>
             ";
-        // line 58
+        // line 73
         echo "            ";
-        $this->loadTemplate("portfolio2/footer.html.twig", "base.html.twig", 58)->display($context);
-        // line 59
+        $this->loadTemplate("portfolio2/footer.html.twig", "base.html.twig", 73)->display($context);
+        // line 74
         echo "
            <!-- scroll top button -->
             <button class=\"scroltop fa fa-chevron-up\" ></button>
         </div>
         ";
-        // line 63
+        // line 78
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 106
+        // line 121
         echo "
         ";
-        // line 109
+        // line 124
         echo "
     </body>
 
@@ -132,7 +150,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 
     }
 
-    // line 19
+    // line 34
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -142,7 +160,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Karla Gergelova | Développeur Web";
+        echo "Karla Gergelova | Développeur Web et Web Mobile";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -151,7 +169,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 
     }
 
-    // line 24
+    // line 39
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -161,44 +179,44 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 25
+        // line 40
         echo "        <!-- STYLESHEETS -->
         <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 26
+        // line 41
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/plugins.css"), "html", null, true);
         echo "\">
         <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 27
+        // line 42
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/style.css"), "html", null, true);
         echo "\">
         <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 28
+        // line 43
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/plugins/bootstrap/bootstrap.min.css"), "html", null, true);
         echo "\">
         <link class=\"skin\"  rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 29
+        // line 44
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/skin/skin-1.css"), "html", null, true);
         echo "\">
         <link  rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 30
+        // line 45
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/templete.css"), "html", null, true);
         echo "\">
         <link  rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 31
+        // line 46
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/styles.css"), "html", null, true);
         echo "\">
 
         <!-- REVOLUTION SLIDER CSS -->
         <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 34
+        // line 49
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("../plugins/revolution/revolution/css/settings.css"), "html", null, true);
         echo "\">
         <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 35
+        // line 50
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("../plugins/revolution/revolution/css/layers.css"), "html", null, true);
         echo "\">
         <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 36
+        // line 51
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("../plugins/revolution/revolution/css/navigation.css"), "html", null, true);
         echo "\">
         ";
@@ -210,7 +228,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 
     }
 
-    // line 53
+    // line 68
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -220,7 +238,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 54
+        // line 69
         echo "                
                 ";
         
@@ -231,7 +249,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 
     }
 
-    // line 63
+    // line 78
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -241,116 +259,116 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 64
+        // line 79
         echo "          <!-- JavaScript  files -->
         <script src=\"";
-        // line 65
+        // line 80
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery.min.js"), "html", null, true);
         echo "\"></script><!-- JQUERY.MIN JS -->
         ";
-        // line 67
+        // line 82
         echo "        <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>
         ";
-        // line 69
+        // line 84
         echo "        <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
         <script src=\"https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js\"></script>
         ";
-        // line 72
+        // line 87
         echo "        <script src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"), "html", null, true);
         echo "\"></script><!-- FORM JS -->
         <script src=\"";
-        // line 73
+        // line 88
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/magnific-popup/magnific-popup.js"), "html", null, true);
         echo "\"></script><!-- MAGNIFIC-POPUP JS -->
         <script src=\"";
-        // line 74
+        // line 89
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/counter/waypoints-min.js"), "html", null, true);
         echo "\"></script><!-- WAYPOINTS JS -->
         <script src=\"";
-        // line 75
+        // line 90
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/counter/counterup.min.js"), "html", null, true);
         echo "\"></script><!-- COUNTERUP JS -->
         <script src=\"";
-        // line 76
+        // line 91
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/imagesloaded/imagesloaded.js"), "html", null, true);
         echo "\"></script><!-- MASONRY  -->
         <script src=\"";
-        // line 77
+        // line 92
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/masonry/masonry-3.1.4.js"), "html", null, true);
         echo "\"></script><!-- MASONRY  -->
         <script src=\"";
-        // line 78
+        // line 93
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/masonry/masonry.filter.js"), "html", null, true);
         echo "\"></script><!-- MASONRY  -->
         <script src=\"";
-        // line 79
+        // line 94
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/owl-carousel/owl.carousel.js"), "html", null, true);
         echo "\"></script><!-- OWL  SLIDER  -->  
         <script src=\"";
-        // line 80
+        // line 95
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/dz.carousel.js"), "html", null, true);
         echo "\"></script><!-- SORTCODE FUCTIONS  -->
         <script src=\"";
-        // line 81
+        // line 96
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/custom.js"), "html", null, true);
         echo "\"></script><!-- CUSTOM FUCTIONS  -->
         <script src=\"";
-        // line 82
+        // line 97
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("https://www.google.com/recaptcha/api.js"), "html", null, true);
         echo "\"></script> <!-- Google API For Recaptcha  -->
         <script src=\"";
-        // line 83
+        // line 98
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/dz.ajax.js"), "html", null, true);
         echo "\"></script><!-- Contact Us -->
         <!-- REVOLUTION JS FILES-->
         <script src=\"";
-        // line 85
+        // line 100
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 86
+        // line 101
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"), "html", null, true);
         echo "\"></script>
         <!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
         <script src=\"";
-        // line 88
+        // line 103
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 89
+        // line 104
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 90
+        // line 105
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 91
+        // line 106
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 92
+        // line 107
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 93
+        // line 108
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 94
+        // line 109
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 95
+        // line 110
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 96
+        // line 111
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"), "html", null, true);
         echo "\"></script>
         <script  src=\"";
-        // line 97
+        // line 112
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/rev.slider.js"), "html", null, true);
         echo "\"></script>
         <script>
@@ -381,7 +399,7 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
 
     public function getDebugInfo()
     {
-        return array (  354 => 97,  350 => 96,  346 => 95,  342 => 94,  338 => 93,  334 => 92,  330 => 91,  326 => 90,  322 => 89,  318 => 88,  313 => 86,  309 => 85,  304 => 83,  300 => 82,  296 => 81,  292 => 80,  288 => 79,  284 => 78,  280 => 77,  276 => 76,  272 => 75,  268 => 74,  264 => 73,  259 => 72,  255 => 69,  252 => 67,  248 => 65,  245 => 64,  235 => 63,  224 => 54,  214 => 53,  202 => 36,  198 => 35,  194 => 34,  188 => 31,  184 => 30,  180 => 29,  176 => 28,  172 => 27,  168 => 26,  165 => 25,  155 => 24,  136 => 19,  122 => 109,  119 => 106,  117 => 63,  111 => 59,  108 => 58,  105 => 56,  103 => 53,  100 => 52,  97 => 51,  83 => 38,  81 => 24,  73 => 19,  68 => 17,  64 => 16,  47 => 1,);
+        return array (  372 => 112,  368 => 111,  364 => 110,  360 => 109,  356 => 108,  352 => 107,  348 => 106,  344 => 105,  340 => 104,  336 => 103,  331 => 101,  327 => 100,  322 => 98,  318 => 97,  314 => 96,  310 => 95,  306 => 94,  302 => 93,  298 => 92,  294 => 91,  290 => 90,  286 => 89,  282 => 88,  277 => 87,  273 => 84,  270 => 82,  266 => 80,  263 => 79,  253 => 78,  242 => 69,  232 => 68,  220 => 51,  216 => 50,  212 => 49,  206 => 46,  202 => 45,  198 => 44,  194 => 43,  190 => 42,  186 => 41,  183 => 40,  173 => 39,  154 => 34,  140 => 124,  137 => 121,  135 => 78,  129 => 74,  126 => 73,  123 => 71,  121 => 68,  118 => 67,  115 => 66,  101 => 53,  99 => 39,  91 => 34,  86 => 32,  82 => 31,  75 => 27,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -389,22 +407,37 @@ class __TwigTemplate_afd9efe60b670ddbe131466abfb6b1b90545b60043e3b66d9a88bfffd86
         return new Source("<!DOCTYPE html>
 <html lang=\"en\">
     <head>
-        <meta charset=\"utf-8\">
-        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-        <meta name=\"keywords\" content=\"\" />
-        <meta name=\"author\" content=\"\" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-160594213-1\"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-160594213-1');
+        </script>
+        
+        <!-- MOBILE SPECIFIC -->
+       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+       <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">
+
+        <meta name=\"keywords\" content=\"web developpeur, web developer, symfony, code, mobile, css, html, javascript\" />
+        <meta name=\"author\" content=\"Karla Gergelova\" />
         <meta name=\"robots\" content=\"\" />
-        <meta name=\"description\" content=\"Resume theme that is absolutely perfect tool for any type of resume or CV which promote you in professional looking manner. It is a standard resume in which you will look stunning in any device.\" />
-        <meta property=\"og:title\" content=\"Karla Gergelova Resume\" />
-        <meta property=\"og:description\" content=\"Resume theme that is absolutely perfect tool for any type of resume or CV which promote you in professional looking manner. It is a standard resume in which you will look stunning in any device.\" />
-        <meta property=\"og:image\" content=\"http://winkit.dexignlab.com/10_resume/social-image.png\" />
-        <meta name=\"format-detection\" content=\"telephone=no\">
+        <meta name=\"description\" content=\"\" />
+
+        <!-- Facebook -->
+        <meta property=\"og:title\" content=\"Karla Gergelova Portfolio\" />
+        <meta property=\"og:description\" content=\"\" />
+        <meta property=\"og:url\" content=\"https://www.karlagergelova.com/\">
+        <meta property=\"og:image\" content=\"{{ asset('images/social-image.png') }}\" />
+        <meta property=\"og:site_name\" content=\"Portfolio Karla Gergelova\">
         
         <!-- FAVICONS ICON -->
         <link rel=\"icon\" href=\"{{ asset('images/logo2.png') }}\" type=\"image/x-icon\" />
         <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"{{ asset('images/logo2.png') }}\" />
 
-        <title>{% block title %}Karla Gergelova | Développeur Web{% endblock %}</title>
+        <title>{% block title %}Karla Gergelova | Développeur Web et Web Mobile{% endblock %}</title>
 
         <!-- MOBILE SPECIFIC -->
 \t    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
