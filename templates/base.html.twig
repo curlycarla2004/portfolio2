@@ -50,6 +50,9 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('../plugins/revolution/revolution/css/layers.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('../plugins/revolution/revolution/css/navigation.css') }}">
         {% endblock %}
+        
+        {#Recaptcha#}
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
 
     <body id="bg" data-target=".navbar" data-spy="scroll" >
@@ -110,6 +113,10 @@
         <script src="{{ asset('plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
         <script src="{{ asset('plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
         <script  src="{{ asset('js/rev.slider.js') }}"></script>
+
+        
+
+
         <script>
             $( window ).load(function() {
                 'use strict';
@@ -117,6 +124,8 @@
             });
                 /*ready*/
         </script>
+        
+
         {% endblock %}
 
         {# <!-- Go to www.addthis.com/dashboard to customize your tools -->

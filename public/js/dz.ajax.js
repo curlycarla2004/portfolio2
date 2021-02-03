@@ -46,7 +46,7 @@ function contactForm()
 				}
 				$('.dzFormMsg').html(msgDiv);
 				$('.dzForm')[0].reset();
-                // grecaptcha.reset();
+                grecaptcha.reset();
 			}
 		})
 	});
