@@ -5,7 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>{% block title %}Multi website{% endblock %}</title>
+        {% block facebook %}
+        <meta property="og:title" content="{{ block('title') }}" />
+        <meta property="og:description" content="{{ block('description') }}" />
+        <meta property="og:url" content="https://www.karlagergelova.com/Multi-website">
+        <meta property="og:image" content="{{ asset('images/multi.webp') }}" />
+        <meta property="og:site_name" content="Multi site vitrine">
+        {% endblock %}
+
+        
+        <title>{% block title %}Multi site vitrine créé par Karla Gergelova{% endblock %}</title>
+        <meta name="description" content="{% block description %} Multi site vitrine créé par Karla Gergelova lors de ses études à WF3. {% endblock %}">
 
         {% block stylesheets %}
            
@@ -29,13 +39,13 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{ asset('images/Multi/1.jpg') }}" class="d-block w-100" alt="phone in hand pc">
+                            <img src="{{ asset('images/Multi/1.webp') }}" class="d-block w-100" alt="phone in hand pc">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('images/Multi/2.jpg') }}" class="d-block w-100" alt="clavier d'ordinateur">
+                            <img src="{{ asset('images/Multi/2.webp') }}" class="d-block w-100" alt="clavier d'ordinateur">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('images/Multi/3.jpg') }}" class="d-block w-100" alt="interview">
+                            <img src="{{ asset('images/Multi/3.webp') }}" class="d-block w-100" alt="interview">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="next">
@@ -100,10 +110,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 order-lg-2">
-                        <img src="{{ asset('images/Multi/6.jpg') }}" alt="girl with pc" class="src" width="500em">
+                        <img src="{{ asset('images/Multi/6.webp') }}" alt="girl with pc" class="src" width="500em">
                     </div>
                     <div class="col-lg-6 order-lg-2">
-                        <img src="{{ asset('images/Multi/5.jpg') }}" alt="tel et tablette plus texte" class="src" width="500em">
+                        <img src="{{ asset('images/Multi/5.webp') }}" alt="tel et tablette plus texte" class="src" width="500em">
                     </div>
                 </div><!--/row-->
             </div><!--/container-->
@@ -187,22 +197,22 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-3 order-lg-4 pt-5">
-                        <img src="{{ asset('images/Multi/man4.jpg') }}" alt="man4" id="man4" class="src">
+                        <img src="{{ asset('images/Multi/man4.webp') }}" alt="man4" id="man4" class="src">
                         <h4>Frank Smith</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>
                     <div class="col-lg-3 order-lg-3 pt-5">
-                        <img src="{{ asset('images/Multi/man2.jpg') }}" alt="man2" id="man2" class="src">
+                        <img src="{{ asset('images/Multi/man2.webp') }}" alt="man2" id="man2" class="src">
                         <h4>John Freeman</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>
                     <div class="col-lg-3 order-lg-2 pt-5">
-                        <img src="{{ asset('images/Multi/man3.jpg') }}" alt="man3" id="man3" class="src">
+                        <img src="{{ asset('images/Multi/man3.webp') }}" alt="man3" id="man3" class="src">
                         <h4>Nicolas Lang</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>
                     <div class="col-lg-3 order-lg-1 pt-5">
-                        <img src="{{ asset('images/Multi/man4.jpg') }}" alt="man4" id="man42" class="src">
+                        <img src="{{ asset('images/Multi/man4.webp') }}" alt="man4" id="man42" class="src">
                         <h4>TJ Coxx</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>

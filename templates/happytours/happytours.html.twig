@@ -5,7 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>{% block title %}Happy tours agence de voyage{% endblock %}</title>
+        {% block facebook %}
+        <meta property="og:title" content="{{ block('title') }}" />
+        <meta property="og:description" content="{{ block('description') }}" />
+        <meta property="og:url" content="https://www.karlagergelova.com/Happy-tours">
+        <meta property="og:image" content="{{ asset('images/voyage.webp') }}" />
+        <meta property="og:site_name" content="Happy Tours site vitrine">
+        {% endblock %}
+        
+        <title>{% block title %}Happy tours agence de voyage site vitrine{% endblock %}</title>
+        <meta name="description" content="{% block description %} Happy Tours site vitrine créé par Karla Gergelova lors de ses études à WF3. {% endblock %}">
 
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
@@ -20,19 +29,19 @@
             <div class="row py-5" >
                 <article class="col-lg-4">
                     <h2>Brazil!</h2>
-                        <img class="w-100" src="{{ asset('images/happytours/basic-pic1.jpg') }}" alt="brazil">
+                        <img class="w-100" src="{{ asset('images/happytours/basic-pic1.webp') }}" alt="brazil">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </article><!--/col-4-->
 
                 <article class="col-lg-4">
                     <h2>Mexico!</h2>
-                    <img class="w-100" src="{{ asset('images/happytours/basic-pic2.jpg') }}" alt="mexico">
+                    <img class="w-100" src="{{ asset('images/happytours/basic-pic2.webp') }}" alt="mexico">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </article><!--/col-4-->
 
                 <article class="col-lg-4">
                     <h2>USA!</h2>
-                    <img class="w-100" src="{{ asset('images/happytours/basic-pic3.jpg') }}" alt="US">
+                    <img class="w-100" src="{{ asset('images/happytours/basic-pic3.webp') }}" alt="US">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </article><!--/col-4-->
             </div><!--/row-->

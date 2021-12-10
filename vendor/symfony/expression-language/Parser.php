@@ -23,8 +23,8 @@ namespace Symfony\Component\ExpressionLanguage;
  */
 class Parser
 {
-    const OPERATOR_LEFT = 1;
-    const OPERATOR_RIGHT = 2;
+    public const OPERATOR_LEFT = 1;
+    public const OPERATOR_RIGHT = 2;
 
     private $stream;
     private $unaryOperators;
@@ -123,6 +123,9 @@ class Parser
         if (!$stream->isEOF()) {
             throw new SyntaxError(sprintf('Unexpected token "%s" of value "%s".', $stream->current->type, $stream->current->value), $stream->current->cursor, $stream->getExpression());
         }
+
+        $this->stream = null;
+        $this->names = null;
 
         return $node;
     }

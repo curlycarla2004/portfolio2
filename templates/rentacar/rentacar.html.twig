@@ -5,7 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>{% block title %}Rent A Car{% endblock %}</title>
+        {% block facebook %}
+        <meta property="og:title" content="{{ block('title') }}" />
+        <meta property="og:description" content="{{ block('description') }}" />
+        <meta property="og:url" content="https://www.karlagergelova.com/Rent-A-Car">
+        <meta property="og:image" content="{{ asset('images/rent.webp') }}" />
+        <meta property="og:site_name" content="Rent A Car site vitrine">
+        {% endblock %}
+        
+        <title>{% block title %}Rent A Car site vitrine créé par Karla Gergelova{% endblock %}</title>
+        <meta name="description" content="{% block description %} Rent A Car site vitrine créé par Karla Gergelova lors de ses études à WF3. {% endblock %}">
 
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
@@ -39,13 +48,13 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="{{ asset('images/rentacar/vehicule1.png') }}" class="d-block w-100" alt="vehicule1">
+                                <img src="{{ asset('images/rentacar/vehicule1.webp') }}" class="d-block w-100" alt="vehicule1">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur1.png') }}" class="d-block w-100" alt="vehicule2">
+                                <img src="{{ asset('images/rentacar/interieur1.webp') }}" class="d-block w-100" alt="vehicule2">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur2.png') }}" class="d-block w-100" alt="vehicule3">
+                                <img src="{{ asset('images/rentacar/interieur2.webp') }}" class="d-block w-100" alt="vehicule3">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -90,13 +99,13 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="{{ asset('images/rentacar/vehicule2.png') }}" class="d-block w-100" alt="vehicule2">
+                                <img src="{{ asset('images/rentacar/vehicule2.webp') }}" class="d-block w-100" alt="vehicule2">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur3.png') }}" class="d-block w-100" alt="vehicule3">
+                                <img src="{{ asset('images/rentacar/interieur3.webp') }}" class="d-block w-100" alt="vehicule3">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/rentacar/interieur1.png') }}" class="d-block w-100" alt="vehicule4">
+                                <img src="{{ asset('images/rentacar/rentacar/interieur1.webp') }}" class="d-block w-100" alt="vehicule4">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -141,13 +150,13 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="{{ asset('images/rentacar/vehicule3.png') }}" class="d-block w-100" alt="vehicule3">
+                                <img src="{{ asset('images/rentacar/vehicule3.webp') }}" class="d-block w-100" alt="vehicule3">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur1.png') }}" class="d-block w-100" alt="vehicule4">
+                                <img src="{{ asset('images/rentacar/interieur1.webp') }}" class="d-block w-100" alt="vehicule4">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur2.png') }}" class="d-block w-100" alt="vehicule1">
+                                <img src="{{ asset('images/rentacar/interieur2.webp') }}" class="d-block w-100" alt="vehicule1">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -191,13 +200,13 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="{{ asset('images/rentacar/vehicule4.png') }}" class="d-block w-100" alt="vehicule4">
+                                <img src="{{ asset('images/rentacar/vehicule4.webp') }}" class="d-block w-100" alt="vehicule4">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur3.png') }}" class="d-block w-100" alt="vehicule1">
+                                <img src="{{ asset('images/rentacar/interieur3.webp') }}" class="d-block w-100" alt="vehicule1">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="{{ asset('images/rentacar/interieur2.png') }}" class="d-block w-100" alt="vehicule2">
+                                <img src="{{ asset('images/rentacar/interieur2.webp') }}" class="d-block w-100" alt="vehicule2">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -242,13 +251,13 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img src="{{ asset('images/rentacar/vehicule1.png') }}" class="d-block w-100" alt="vehicule1">
+                                    <img src="{{ asset('images/rentacar/vehicule1.webp') }}" class="d-block w-100" alt="vehicule1">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur1.png') }}" class="d-block w-100" alt="vehicule2">
+                                    <img src="{{ asset('images/rentacar/interieur1.webp') }}" class="d-block w-100" alt="vehicule2">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur2.png') }}" class="d-block w-100" alt="vehicule3">
+                                    <img src="{{ asset('images/rentacar/interieur2.webp') }}" class="d-block w-100" alt="vehicule3">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -293,13 +302,13 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img src="{{ asset('images/rentacar/vehicule2.png') }}" class="d-block w-100" alt="vehicule2">
+                                    <img src="{{ asset('images/rentacar/vehicule2.webp') }}" class="d-block w-100" alt="vehicule2">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur3.png') }}" class="d-block w-100" alt="vehicule3">
+                                    <img src="{{ asset('images/rentacar/interieur3.webp') }}" class="d-block w-100" alt="vehicule3">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur1.png') }}" class="d-block w-100" alt="vehicule4">
+                                    <img src="{{ asset('images/rentacar/interieur1.webp') }}" class="d-block w-100" alt="vehicule4">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -344,13 +353,13 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img src="{{ asset('images/rentacar/vehicule3.png') }}" class="d-block w-100" alt="vehicule3">
+                                    <img src="{{ asset('images/rentacar/vehicule3.webp') }}" class="d-block w-100" alt="vehicule3">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur1.png') }}" class="d-block w-100" alt="vehicule4">
+                                    <img src="{{ asset('images/rentacar/interieur1.webp') }}" class="d-block w-100" alt="vehicule4">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur2.png') }}" class="d-block w-100" alt="vehicule1">
+                                    <img src="{{ asset('images/rentacar/interieur2.webp') }}" class="d-block w-100" alt="vehicule1">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -394,13 +403,13 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img src="{{ asset('images/rentacar/vehicule4.png') }}" class="d-block w-100" alt="vehicule4">
+                                    <img src="{{ asset('images/rentacar/vehicule4.webp') }}" class="d-block w-100" alt="vehicule4">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur3.png') }}" class="d-block w-100" alt="vehicule1">
+                                    <img src="{{ asset('images/rentacar/interieur3.webp') }}" class="d-block w-100" alt="vehicule1">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="{{ asset('images/rentacar/interieur2.png') }}" class="d-block w-100" alt="vehicule2">
+                                    <img src="{{ asset('images/rentacar/interieur2.webp') }}" class="d-block w-100" alt="vehicule2">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
